@@ -1,0 +1,144 @@
+html body {
+  margin: 0;
+  padding: 0;
+  color: #BCBBB2;
+  font-size: x-large;
+}
+.backcor {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  background-color: #323437;
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 1250px;
+}
+#navpar {
+  display: flex;
+  height: 100px;
+  align-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#nav {
+  height: 35px;
+  width: 1185px;
+  border-right: 1px solid;
+}
+.navC {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: center;
+  height: 100%;
+}
+
+.navC-left,
+.navC-right {
+  display: flex;
+}
+
+.navC-item {
+  font-family: Arial, sans-serif;
+  font-size: x-large;
+  text-decoration: none;
+  padding: 0 10px;
+  line-height: 18px;
+}
+#nav > nav > div.navC-left > a:nth-child(1){
+  font-size: xx-large;
+}
+#bot{
+  flex: 2;
+  overflow: scroll;
+  text-align: center;
+  font-size: xx-large;
+  border-bottom: 1px solid;
+}
+#toppar {
+  flex: 2;
+  overflow: hidden;
+}
+
+#mid {
+  flex: 3;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+  text-align: center;
+}
+
+#topLeft ,#topRight {
+  display: inline-block;
+  height: 100%;
+  width: 49%;
+  overflow: scroll;
+}
+#topLeft {
+  border-Right: 1px solid #BCBBB2;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+.hide-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer, Edge */
+}
+.button {
+  background-color: #444;
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  padding: 12px 24px;
+  margin: 10px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: #666;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.input-text {
+  background-color: #444;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  outline: none;
+  width: 80%;
+  transition: all 0.3s ease;
+}
+
+.input-text:focus {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+#midMap {
+  font-size: xxx-large;
+}
+
+.space {
+  flex:0.5
+}
+
+#mid-form{
+  width: 735px;
+}
+.topBtn {
+  filter: invert(100%);
+  float: right;
+  font-size: small;
+  padding: 6px 10px;
+}
